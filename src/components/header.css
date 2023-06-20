@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d52b1e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+}
+
+.header-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d52b1e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+}
+
+.header-not-expanded {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d52b1e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+}
+
+.header-hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #d52b1e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+}
+
+.pay-simply-logo {
+  height: 35px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-hamburger {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 220px;
+  margin-top: 15px;
+}
+
+.search-button {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #555;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.not-displayed {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hamburger-menu {
+    display: block;
+  }
+}
