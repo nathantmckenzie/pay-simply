@@ -1,32 +1,54 @@
-.okay {
+* {
+  font-family: Metropolis, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.app-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.body-container {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.below-progress-bar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   height: 100%;
-  margin-left: 15px;
-  margin-top: 100px;
 }
 
-* {
-  margin: 0;
+.taxpayer-details {
+  margin-bottom: 20px;
+  margin-right: 30px;
 }
 
-.App {
-  height: 100vh;
-  overflow-y: scroll;
-}
-
-/* .taxpayer-details {
-  margin-right: 15px;
-} */
-
-@media screen and (max-width: 767px) {
-  .lit {
+@media screen and (max-width: 820px) {
+  .fraud-protection-container {
     display: none;
   }
 
-  .taxpayer-details-container {
-    width: 95vw;
+  .taxpayer-details-form {
+    width: 95%;
+  }
+
+  .progress-bar-container {
+    display: none;
+  }
+
+  .taxpayer-details {
+    margin: 0px;
+  }
+
+  .outer-taxpayer-container {
+    width: 93vw;
   }
 }

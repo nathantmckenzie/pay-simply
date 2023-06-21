@@ -1,15 +1,21 @@
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import TaxpayerDetails from "./components/TaxpayerDetails";
 import FraudProtection from "./components/FraudProtection";
+import ProgressBar from "./components/ProgressBar";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div className="okay">
-        <TaxpayerDetails />
-        <FraudProtection />
+    <div className="app-container">
+      <NavBar />
+      <div className="body-container">
+        <ProgressBar />
+        <div className="below-progress-bar">
+          <div className="taxpayer-details">
+            <TaxpayerDetails />
+          </div>
+          <FraudProtection />
+        </div>
       </div>
     </div>
   );

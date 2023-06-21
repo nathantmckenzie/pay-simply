@@ -1,22 +1,94 @@
-.form {
+.taxpayer-details-form {
   display: flex;
   flex-direction: column;
+  width: 70%;
 }
 
-input {
-  height: 30px;
-  width: 35vw;
-  margin-bottom: 15px;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-}
-
-.taxpayer-details-container {
+.header {
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
-  width: 50%;
+}
+
+.taxpayer-details-section {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.default-input-field {
+  height: 35px;
+  width: 100%;
+  /* max-width: 400px; */
+  min-width: 300px;
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  margin-top: 4px;
+}
+
+.input-error {
+  border: 2px solid #dc3545;
+}
+
+.input-success {
+  border: 2px solid #28a745;
+}
+
+.subtitle-text {
+  color: #6c757d;
+  margin-bottom: 5px;
+}
+
+.error-message {
+  color: #dc3545;
+}
+
+.outer-taxpayer-container {
+  width: 70vw;
+  max-width: 900px;
+}
+
+.footer-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.taxpayer-details-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
   padding: 10px;
-  /* margin-right: 30px; */
+  min-height: 530px;
+  /* width: 70vw;
+  max-width: 900px; */
+}
+
+.input-title {
+  margin-bottom: 3px;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  font-weight: normal;
 }

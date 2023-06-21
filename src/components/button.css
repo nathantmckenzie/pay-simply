@@ -1,0 +1,16 @@
+.button {
+  background-color: #2b4e7b;
+  color: white;
+  font-size: large;
+  width: 48%;
+  height: 50px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.buttons-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 15px;
+}
