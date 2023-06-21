@@ -2,7 +2,7 @@ PaySimply App
 
 Steps:
 
-1. Open your terminal and run "git clone"
+1. Open your terminal and run "git clone https://github.com/nathantmckenzie/pay-simply.git"
 2. Run "npm install" to install all dependencies
 3. Run "npm start"
 
