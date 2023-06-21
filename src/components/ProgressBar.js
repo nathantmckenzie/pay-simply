@@ -4,18 +4,14 @@ import "./progress-bar.css";
 function ProgressBar() {
   return (
     <div className="progress-bar-container">
-      <div className="pointer" id="start">
-        Tax Type
-      </div>
-      <div className="pointer" id="details">
+      <div className="progress-step">Tax Type</div>
+      <div className="progress-step" id="details">
         Details
       </div>
-      <div className="pointer">Payment Option</div>
-      <div className="pointer">Review</div>
-      <div className="pointer">Make Payment</div>
-      <div className="pointer" id="end">
-        Confirmation
-      </div>
+      <div className="progress-step">Payment Option</div>
+      <div className="progress-step">Review</div>
+      <div className="progress-step">Make Payment</div>
+      <div className="progress-step">Confirmation</div>
     </div>
   );
 }
